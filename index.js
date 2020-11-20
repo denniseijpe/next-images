@@ -39,7 +39,7 @@ module.exports = ({ dynamicAssetPrefix = false, ...nextConfig } = {}) => {
                 }
                 return p
               },
-              name: "[name].[ext]",
+              name: "[hash]/[name].[ext]",
               esModule: nextConfig.esModule || false
             }
           }
